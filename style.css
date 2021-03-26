@@ -1,0 +1,102 @@
+body {
+	margin: 0px;
+	background-color: black;
+	font-family: 'Train One', sans-serif;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: pink;
+  display: block;
+  margin: 24px auto;
+  width: 20%;
+  padding: 12px;
+  border-radius: 11px;
+  border: 2px solid pink;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: white;
+  color: pink;
+  transition: 0.5s;
+}
+.banner {
+	background-image: radial-gradient(circle, rgb(103 98 88 / 58%) 0%, rgb(132 132 132 / 10%) 100%), url("photo2.jpg");
+	height: 40vh;
+	background-size: cover;
+	background-position: center;
+	text-align: left;
+	padding-top: 2px;
+	border-radius: 5px;
+	font-family: 'Train One', sans-serif;
+}
+.box {
+	background-color: white;
+	text-align: center;
+	width: 250px;
+	padding-top: 50px;
+	box-shadow: 1px 1px 1px #00000066;
+	border-radius: 11px;
+	margin: 76px;
+}
+.imagebox {
+	width: 225px;
+	border-radius: 11px;
+}
+.controlebox {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 12px;
+}
+
+
+.card-white {
+  background-color: white;
+  width: 550px;
+  padding: 24px;
+  margin: 24px auto;
+  border-radius: 7px;
+  box-shadow: 0px 0px 3px 2px #00000047;
+  text-align: center;
+}
+
+.card-white:hover {
+	background-color: #ffc0dafc;
+	transition: 1s;
+}
+
+.box:hover {
+	background-color: pink;
+	transition: 1s;
+}
+
+.emmouille { 
+	border-radius: 40%;
+  	width: 300px;
+  	padding: 0px 125px;
+  	
+
+
+ }
+
+ .button-red {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  display: block;
+  margin: 24px auto;
+  width: 40%;
+  padding: 12px;
+  border-radius: 7px;
+  border: 2px solid pink;
+  transition: 1s;
+}
+
+.button-red:hover {
+  background-color: black;
+  color: red;
+  transition: 1s;
+}
+
